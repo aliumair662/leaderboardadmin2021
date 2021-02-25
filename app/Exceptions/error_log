@@ -1,0 +1,1 @@
+[05-Feb-2021 02:17:20 America/Boise] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home4/hodgzamy/public_html/playcasinoadmin/app/Exceptions/Handler.php on line 8

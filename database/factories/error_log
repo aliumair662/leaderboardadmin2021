@@ -1,0 +1,4 @@
+[06-Feb-2021 23:50:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home4/hodgzamy/public_html/playcasinoadmin/database/factories/UserFactory.php:20
+Stack trace:
+#0 {main}
+  thrown in /home4/hodgzamy/public_html/playcasinoadmin/database/factories/UserFactory.php on line 20

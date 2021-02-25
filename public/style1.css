@@ -1,0 +1,1112 @@
+body{
+	margin: 0px;
+	padding: 0px;
+    /*font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;*/
+    /*font-family: 'Roboto' !important;*/
+    font-family: 'Roboto', sans-serif !important;
+    touch-action: manipulation;
+}
+/* Genral css */
+input:focus{
+    outline: none;
+}
+select:focus{
+    outline: none;
+}
+input{
+    color: white;
+}
+button:focus{
+	outline: none;
+}
+a{
+	color: #1D1D30 ;
+}
+a:hover{
+	text-decoration: none !important;
+}
+.wrapper{
+	background-color: #1D1D30;
+	color: white;
+}
+::placeholder {
+  	text-align: left;
+	font: normal normal normal 14px/18px Roboto;
+	letter-spacing: 0px;
+	color: #FEFEFE;
+	opacity: 1;
+}
+.header{
+	background-color: #1A1F26;
+    padding: 30px;
+}
+header {
+    background-color: #1a1f26;
+    padding: 15px 0px;
+}
+ header .dropdown-toggle::after {
+    display: none;
+}
+.dropdown_icon{
+    color: #00CBFF;
+}
+header .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+header .dropdown-item{
+    padding: 0px 5px;
+     color: #00cbff;
+}
+header .dropdown-menu{
+    font-size: 14px;
+    min-width: 100px;
+    margin: 0px;
+    padding: 0px;
+    background: #1a1f26;
+}
+header .dropdown-item:focus, header .dropdown-item:hover {
+    color: #16181b;
+    background-color: #00cbff;
+}
+header .dropdown-menu.show {
+    transform: translate3d(-110px, 38px, 0px);
+}
+.logout-button a {
+    color: red;
+}
+.avatar-image {
+    width: 69px;
+    height: 69px;
+    border-radius: 50px;
+}
+.avatar-image img {
+    width: 69px;
+    border-radius: 50%;
+    height: 100%;
+    box-shadow: 0px 0px 6px #00cbff;
+    border: 1px solid #00cbff;
+    opacity: 1;
+}
+header i {
+    color: white;
+}
+.header-row {
+    display: flex;
+    align-items: center;
+}
+.avatar-casino {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 11px;
+}
+.casino-user span {
+    font-size: 18px;
+    text-align: right;
+    letter-spacing: 0px;
+    color: #00f3ff;
+}
+span.casino-user {
+    text-align: right;
+}
+header{
+    background-color: #1A1F26;
+    padding: 15px 0px;
+}
+.avatar-image{
+    width: 69px;
+    height: 69px;
+    border-radius: 50px;
+}
+.avatar-image img {
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    box-shadow: 0px 0px 6px #00CBFF;
+    border: 1px solid #00CBFF;
+    opacity: 1;
+}
+header i{
+    color: white;
+}
+.header-row{
+    display: flex;
+	align-items: center;
+}
+.avatar-casino{
+    display: flex;
+	align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 11px;
+}
+.casino-user span {
+    font-size: 18px;
+    text-align: right;
+letter-spacing: 0px;
+color: #00F3FF;
+}
+span.casino-user{
+    text-align: right;
+}
+.site-wrapper{
+    max-width: 1140px;
+}
+.admin-panal{
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+.competition-wrapper{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.Payment-Method-header {
+    background: #1A1F26 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #0afff7;
+    /* border-radius: 19px; */
+    align-items: center;
+    padding: 15px 40px;
+    margin-top: 50px;
+    opacity: 1;
+}
+.Wallet {
+    background: #1A1F26 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 11px #009caefa;
+    border: 1px solid #00CBFF;
+    align-items: center;
+    border-radius: 9px;
+    width: auto;
+    padding: 15px 30px;
+   /* display: flex;
+     height: 8vh; */
+    opacity: 1;
+    position: absolute;
+    top: -5px;
+}
+.Payment-Method-header-text-area {
+   /* margin-right: auto;
+     float: left; */
+}
+.Payment-Method-header .row {
+    align-items: center;
+}
+.front-screen-height{
+    height: 100vh;
+}
+/* Genral css */
+/*============================================login Page==========================================*/
+.login-form-wrapper{
+    max-width: 570px;
+    margin: 0 auto;
+}
+.login-form{
+	padding: 12.5% 0px;
+}
+.login-input-group input{
+    width: 100%;
+    background: #1A1F26 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 29px #FCA120;
+    border: 1px solid #FCA120;
+    border-radius: 13px;
+    opacity: 1;
+    margin: 10px 0px;
+    padding: 10px 10px;
+}
+.login-submit{
+	background: #FCA120 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 23px #FCA120A3;
+    border: 1px solid #FCA120;
+    border-radius: 15px;
+    opacity: 1;
+    padding: 15px 40px;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #1D1D30;
+    font-weight: 600;
+}
+.login-submit:hover{
+	color: #1D1D30;
+}
+.submit-input{
+	margin: 55px 0px 40px 0px;
+}
+.login-to-Sign{
+	color: #FCA120;
+}
+.login-to-Sign:hover{
+	color: #FCA120;
+}
+/*============================================login Page==========================================*/
+
+
+/*============================================Signup Page==========================================*/
+.Signup-input-group input{
+    background: #1A1F26 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 9px #20fc9d;
+    border: 1px solid #20FC9D;
+    border-radius: 13px;
+    padding: 15px 25px;
+    margin: 5px 5px;
+    width: 100%;
+    opacity: 1;
+}
+.Signup-password .login-input-group input{
+    background: #1A1F26 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #FCA120;
+    border: 1px solid #FCA120;
+    border-radius: 13px;
+    padding: 15px 25px;
+    margin: 5px 5px;
+    width: 100%;
+    opacity: 1;
+}
+/*input[type=radio]:checked ~ .check {
+  border: 5px solid red;
+}*/
+.login-form-Forgot p{
+    font-size: 12px;
+}
+.Signup-gide{
+    text-align: center;
+    font: normal normal bold 28px/32px Roboto;
+    letter-spacing: 0px;
+    color: #FCA120;
+    opacity: 1;
+}
+/*============================================Signup Page==========================================*/
+
+/*============================================Price Amount  Page==========================================*/
+.Price-Amount-heading{
+    font: normal normal bold 36px/36px Roboto;
+    text-shadow: 0px 0px 28px #0080FF;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.Wallet-Back{
+    font: normal normal bold 12px/12px Roboto;
+    text-shadow: 0px 0px 28px #0080FF;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.price-amount-wrapper{
+    background: #1A1F26 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 25px #FCA120;
+    border: 2px solid #FCA120;
+    border-radius: 13px;
+    margin: 4% 0px;
+    opacity: 1;
+}
+/*============================================Price Amount  Page==========================================*/
+
+/*============================================Manage Compeitition 2 Page================================= */
+.competition{
+    justify-content: center;
+}
+.row.competition{
+    max-width: 1000px;
+    margin: auto;
+}
+.competition button{
+    background: #FCA120 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 23px #FCA120A3;
+    border: 1px solid #FCA120;
+    margin: 25px 0px 0px;
+    border-radius: 13px;
+    min-height: 235px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 26px;
+    color: #1D1D30;
+    opacity: 1;
+}
+.competition button:focus{
+    outline: none;
+}
+
+/*============================================Manage Compeitition 2 Page=================================*/
+/*============================================Management Competition 3 Page================================= */
+.player-box{
+    border: 1px solid #20FC9D;
+    border-radius: 7px;
+    opacity: 1;
+    margin-top: 25px;
+    min-height: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player-box h3{
+    font-weight: 700;
+    font-size: 28px;
+}
+h3 span {
+    color: #FCA120;
+}
+.player-data th,
+.player-data td {
+    min-width: 194px;
+   color: #fff;
+   letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+font-size: 14px;
+}
+.player-data td{
+   color: #FCA120;
+}
+.player-data .table-responsive {
+    box-shadow: 0px 0px 4px #20FC9D;
+border: 1px solid #20FC9D;
+border-radius: 7px;
+opacity: 1;
+margin: 20px 0px;
+}
+
+/*============================================Management Competition 3 Page================================= */
+
+
+/*============================================Management Competition 6 Page================================= */
+.Manage-competition-heading{
+    font: normal normal bold 27px/18px Roboto;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #20FC9D;
+    opacity: 1;
+}
+.Manage-competition-wrapper{
+    width: 80%;
+    margin: 10% auto;
+}
+.Manage-competition-input{
+    background-color: transparent;
+    margin: 10px 0px 50px 0px;
+    border: 1px solid #FCA120;
+    padding: 10px 15px;
+    border-radius: 7px;
+    width: 100%;
+    opacity: 1;
+}
+.Manage-competition-select{
+    background-color: transparent;
+    margin: 10px 0px 50px 0px;
+    border: 1px solid #FCA120;
+    padding: 10px 15px;
+    border-radius: 7px;
+    width: fit-content;
+    color: white;
+    opacity: 1;
+}
+option{
+    border: 10px solid #FCA120 !important;
+    background-color: #1d1d30;
+    border-radius: 7px;
+    margin-top: 20px;
+    color: #FCA120;
+    opacity: 1;
+}
+/*============================================Management Competition 6 Page================================= */
+
+/*============================================Manage competition – 7  Page==========================================*/
+.Price-Amount-heading{
+    font: normal normal bold 36px/36px Roboto;
+    text-shadow: 0px 0px 28px #0080FF;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.Wallet-Back{
+    font: normal normal bold 12px/12px Roboto;
+    text-shadow: 0px 0px 28px #0080FF;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.price-amount-wrapper{
+    background: #1A1F26 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 25px #FCA120;
+    border: 2px solid #FCA120;
+    border-radius: 13px;
+    margin: 4% 0px;
+    opacity: 1;
+}
+.Manage-competition-text{
+    text-align: center;
+    font: normal normal bold 28px/32px Roboto;
+    letter-spacing: 0px;
+    color: #FCA120;
+    opacity: 1;
+}
+.mini-price-amount-wrapper{
+    margin: 5% 15%;
+}
+.mini-price-amount-wrapper .login-form-wrapper {
+    padding: 6.5% 0px;
+}
+/*============================================Manage competition – 7  Page==========================================*/
+
+
+
+/*============================================Manage Leaderboard Page==========================================*/
+.enter-post-page{
+    margin: 10% 0%;
+}
+.Live-post{
+    background: #1D1D30 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 9px #20FC9D;
+    border: 2px solid #20FC9D;
+    border-radius: 27px;
+    padding: 40px 30px;
+    opacity: 1;
+}
+.enter-post-header{
+    display: flex;
+}
+.Live-enter-post-heading-text{
+    font: normal normal bold 23px/18px Roboto;
+    letter-spacing: 1.5px;
+    text-align: center;
+    line-height: 25px;
+/*    
+    font-size: 27px;*/
+    color: #20FC9D;
+    opacity: 1;
+}
+.Live-enter-post-Leaderboard-btn{
+    background: #FCA120 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 23px #FCA120A3;
+    color: #32292E !important;
+    border: 1px solid #FCA120;
+    letter-spacing: 0px;
+    border-radius: 7px;
+    padding: 5px 10px;
+    text-align: left;
+    font-weight: 600;
+    opacity: 1;
+}
+.Live-enter-post{
+    max-width: 400px;
+    margin: auto;
+}
+.enter-post-content-textare textarea,.enter-post-content-textare img{
+    box-shadow: 0px 0px 23px #FCA120A3;
+    background-color: transparent;
+    border: 1px solid #20FC9D;
+    border-radius: 7px;
+    width: 100%;
+    opacity: 1;
+}
+.enter-post-content-textare img{
+    max-height: 200px;
+}
+.Live-enter-post-footer-btn{
+    background-color: transparent;
+    box-shadow: 0px 0px 23px #fca120a3;
+    border: 1px solid #20FC9D;
+    letter-spacing: 0px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 7px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.Go-Live-btn{
+    background: #1D1D30 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 13px #21FB9B;
+    border: 1px solid #21FB9B;
+    letter-spacing: 0px;
+    border-radius: 12px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    opacity: 1;
+}
+.col-md-12.casino-timer {
+    max-width: 400px;
+    margin: auto;
+}
+.casino-timer p {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.casino-timer h3{
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.days h3{
+    text-shadow: 0px 0px 13px #FFB300;
+}
+.hours h3{
+    text-shadow: 0px 0px 13px #00FF3C;
+}
+.mins h3{
+    text-shadow: 0px 0px 13px #FF00C4;
+}
+.secs h3{
+    text-shadow: 0px 0px 13px #0080FF;
+}
+
+
+
+
+.Live-enter-post-footer-text{
+    font: normal normal bold 20px/20px Roboto;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #20FC9D;
+    opacity: 1;
+}
+.b-drag-position{
+    top: -20.51px;
+    right: 50%;
+}
+.enter-post-right-section{
+    display: flex;
+    align-items: center;
+}
+/*Finished*/
+.Finished-Live-post{
+    background: #1D1D30 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 9px #FF2A2A;
+    border: 2px solid #FF2A2A;
+    border-radius: 27px;
+    padding: 40px 30px;
+    opacity: 1;
+}
+.Finished-enter-post-heading-text{
+    font: normal normal bold 23px/18px Roboto;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #FF2A2A;
+    opacity: 1
+}
+.Finished-post-content-textare textarea {
+    box-shadow: 0px 0px 23px #fca120a3;
+    background-color: transparent;
+    border: 1px solid #FF2A2A;
+    border-radius: 7px;
+    width: 100%;
+    opacity: 1;
+}
+.Finished-enter-post-footer-btn {
+    background-color: transparent;
+    box-shadow: 0px 0px 23px #fca120a3;
+    border: 1px solid #FF2A2A;
+    letter-spacing: 0px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 7px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.Go-Finished-btn {
+    background: #1D1D30 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 13px #FF2A2A;
+    border: 1px solid #FF2A2A;
+    letter-spacing: 0px;
+    border-radius: 12px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    opacity: 1;
+}
+.Finished-button-wrapper{
+    margin: 20px 0px;
+}
+.Finished-enter-post-footer-text {
+    text-align: center;
+    font: normal normal bold 20px/20px Roboto;
+    letter-spacing: 0px;
+    color: #FF2A2A;
+    opacity: 1;
+}
+/*Finished*/
+
+/*switch_button live*/
+.switch-live {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch-live input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.swich_button .switch-live .slider-live {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 1px solid #21FB9B;
+}
+
+.slider-live:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #21FB9B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider-live {
+    background-color: transparent;
+    border: 1px solid #21FB9B;
+}
+
+input:focus + .slider-live {
+  box-shadow: 0 0 1px #21FB9B;
+}
+
+input:checked + .slider-live:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider-live.round-live {
+  border-radius: 34px;
+}
+
+.slider-live.round-live:before {
+  border-radius: 50%;
+}
+/*switch_button live*/
+
+/*switch_button*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 1px solid #FF2A2A;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #FF2A2A;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: transparent;
+    border: 1px solid #FF2A2A;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*switch_button*/
+/*============================================Manage Leaderboard Page==========================================*/
+@media screen and (max-width: 768px) {
+    .Wallet {
+        top: -35px;
+    }
+    .Manage-competition-wrapper{
+        width: 100%;
+    }
+    .Live-post {
+        border-radius: 10px;
+        padding: 0px 10px;
+        opacity: 1;
+        margin: 15px 0px;
+    }
+    .Payment-Method-page {
+        height: 100%;
+    }
+    .Playing-button-wrapper .Continue-Playing-btn {
+        float: none !important;
+    }
+    .Playing-button-wrapper {
+        text-align: center;
+        margin-top: 10%;
+    }
+    /* .Payment-Method-header .row{
+        display: block !important;
+    } */
+    .casino-timer .row{
+        display: flex !important;;
+    }
+    .Payment-Method-header {
+        background: #1d1d30 0% 0% no-repeat padding-box;
+        box-shadow: none;
+        border-radius: 19px;
+        align-items: center;
+        padding: 25px 40px;
+        margin-top: 50px;
+        opacity: 1;
+    }
+    .Payment-Method-header-text-area {
+        margin-right: auto;
+        float: none;
+        margin-top: 7%;
+    }
+    .Manage-competition-heading {
+        font: normal normal bold 18px/15px Roboto;
+        letter-spacing: 2px;
+        margin-bottom: 0px;
+        text-align: left;
+        color: #20FC9D;
+        opacity: 1;
+    }
+    .Manage-competition-text {
+        text-align: center;
+        font: normal normal bold 20px/25px Roboto;
+        letter-spacing: 0px;
+        color: #FCA120;
+        opacity: 1;
+    }
+    .mini-price-amount-wrapper {
+        margin: 5% 10%;
+    }
+    .Live-enter-post {
+        max-width: 400px;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .enter-post-right-section .ml-auto{
+        margin: 20px auto;
+    }
+    .b-drag-position {
+        top: -20.51px;
+        right: 45%;
+    }
+    .Live-enter-post-heading-text {
+        font: normal normal bold 17px/18px Roboto;
+        letter-spacing: 1.5px;
+        text-align: center;
+        color: #20FC9D;
+        opacity: 1;
+    }
+    .Finished-enter-post-heading-text {
+        font: normal normal bold 17px/18px Roboto;
+        letter-spacing: 1.5px;
+        text-align: center;
+        color: #FF2A2A;
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 767px) {
+    select {
+        font-size: 14px;
+    }
+    .competition button{
+        font-weight: bold;
+        min-height: 135px;
+        font-size: 18px;
+    }
+    .Payment-Method-header {
+        background: transparent;
+        box-shadow: none;
+        border-radius: 19px;
+        align-items: center;
+        padding: 0px 10px;
+        margin-top: 50px;
+        opacity: 1;
+    }
+    .login-form-wrapper {
+        max-width: inherit;
+        margin: 0 auto;
+    }
+    .Payment-Method-heading{
+        text-align: center;
+    }
+    .Payment-Method-subheading {
+        text-align: left;
+    }
+    .login-form {
+        padding: 5% 1%;
+    }
+    .Billing-input-group input {
+        background: transparent radial-gradient(closest-side at 50% 50%, #113047 0%, #0E0803 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 8px #00cbff;
+        border: 1px solid #00CBFF;
+        border-radius: 9px;
+        padding: 5px 15px;
+        margin: 1px auto;
+        width: 100%;
+        opacity: 1;
+    }
+    .Postcode-input input {
+        width: 100%;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .save-payment-method {
+        margin: 20px 0px 40px 10px;
+        max-width: 570px;
+    }
+    .Payment-Method-header-text-area{
+        margin-top: 30px;
+    }
+    .avatar-image {
+        width: 50px;
+        height:50px;
+        border-radius: 50px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .Signup-input-group input {
+        background: #1A1F26 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 9px #20fc9d;
+        border: 1px solid #20FC9D;
+        border-radius: 13px;
+        padding: 15px 25px;
+        margin: 5px 0px;
+        width: 100%;
+        opacity: 1;
+    }
+    .Clicks {
+        background: #1A1F26 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 29px #fca120;
+        border: 5px solid #FCA120;
+        border-radius: 13px;
+        text-align: center;
+        padding: 25px;
+        opacity: 1;
+    }
+    .Players {
+        background: #1A1F26 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 29px #fca120;
+        border: 5px solid #FCA120;
+        border-radius: 13px;
+        text-align: center;
+        padding: 25px;
+        opacity: 1;
+    }
+    .save-payment-method .save-payment-method-btn {
+        display: block;
+        align-items: center;
+    }
+    .payment-method-icon {
+        display: block;
+        align-items: center;
+    }
+    .payment-method-icon p{
+        margin: 10px auto;
+    }
+    .Playing-button-wrapper .Continue-Playing-btn {
+        float: none !important;
+    }
+    .Playing-button-wrapper {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .Price-Amount-heading {
+        font: normal normal bold 20px/20px Roboto;
+        text-shadow: 0px 0px 28px #0080ff;
+        letter-spacing: 2.5px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .Manage-competition-heading {
+        font: normal normal bold 13px/10px Roboto;
+        letter-spacing: 2px;
+        margin-bottom: 0px;
+        text-align: left;
+        color: #20FC9D;
+        opacity: 1;
+    }
+    .mini-price-amount-wrapper .login-form-wrapper {
+        padding: 35% 1%;
+    }
+    .Manage-competition-text {
+        text-align: center;
+        font: normal normal bold 15px/20px Roboto;
+        letter-spacing: 0px;
+        color: #FCA120;
+        opacity: 1;
+    }
+    .mini-price-amount-wrapper {
+        margin: 15% 5% 5% 5%;
+    }
+    .Signup-gide {
+        text-align: center;
+        font: normal normal bold 19px/23px Roboto;
+        letter-spacing: 0px;
+        color: #FCA120;
+        opacity: 1;
+    }
+    .Live-enter-post-Leaderboard-btn {
+        background: #FCA120 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 23px #fca120a3;
+        color: #32292E !important;
+        border: 1px solid #FCA120;
+        letter-spacing: 0px;
+        border-radius: 7px;
+        padding: 5px 10px;
+        text-align: left;
+        font-weight: 800;
+        opacity: 1;
+        font-size: 10px;
+    }
+    .Live-enter-post-heading-text {
+        font: normal normal bold 17px/18px Roboto;
+        letter-spacing: 1.5px;
+        text-align: center;
+        color: #20FC9D;
+        opacity: 1;
+        font-size: 13px;
+    }
+    .Live-enter-post-footer-btn {
+        background-color: transparent;
+        box-shadow: 0px 0px 23px #fca120a3;
+        border: 1px solid #20FC9D;
+        letter-spacing: 0px;
+        padding: 10px 10px;
+        text-align: center;
+        border-radius: 7px;
+        color: #FFFFFF;
+        opacity: 1;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 373px) {
+   .login-form .d-flex .Clicks-wrapper{
+        margin-right: .5rem!important;
+    }
+    .Clicks {
+        background: #1A1F26 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 29px #fca120;
+        border: 5px solid #FCA120;
+        border-radius: 13px;
+        text-align: center;
+        padding: 25px;
+        opacity: 1;
+    }
+    .Players {
+        background: #1A1F26 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 29px #fca120;
+        border: 5px solid #FCA120;
+        border-radius: 13px;
+        text-align: center;
+        padding: 25px;
+        opacity: 1;
+    }
+    .mini-price-amount-wrapper {
+        margin: 15% 5% 5% 5%;
+    }
+    .Signup-gide {
+        text-align: center;
+        font: normal normal bold 19px/23px Roboto;
+        letter-spacing: 0px;
+        color: #FCA120;
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 333px) {
+    .Clicks {
+        background: #1A1F26 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 29px #fca120;
+        border: 5px solid #FCA120;
+        border-radius: 13px;
+        text-align: center;
+        padding: 15px;
+        opacity: 1;
+    }
+    .Players {
+        background: #1A1F26 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 29px #fca120;
+        border: 5px solid #FCA120;
+        border-radius: 13px;
+        text-align: center;
+        padding: 15px;
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 320px) {
+    .Manage-competition-text {
+        text-align: center;
+        font: normal normal bold 13px/15px Roboto;
+        letter-spacing: 0px;
+        color: #FCA120;
+        opacity: 1;
+    }
+    .mini-price-amount-wrapper {
+        margin: 25% 5% 5% 5%;
+    }
+    .Signup-gide {
+        text-align: center;
+        font: normal normal bold 19px/23px Roboto;
+        letter-spacing: 0px;
+        color: #FCA120;
+        opacity: 1;
+    }
+}
+.iframe-box {
+    border: 3px solid #20fc9d;
+    border-radius: 13px;
+    padding: 10px;
+}
