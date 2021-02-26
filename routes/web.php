@@ -17,7 +17,18 @@ Route::get('/', function () {
     //return view('welcome');
     return redirect(route('login'));
 });
-
+Route::get('/packages', function () {
+    return view('packages');
+    
+});
+Route::get('/createpackages', function () {
+    return view('createpackages');
+    
+});
+Route::get('/createcompetition', function () {
+    return view('createcompetition');
+    
+});
 Auth::routes();
 
 
