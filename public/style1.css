@@ -786,9 +786,13 @@ h3.admin-heading {
     color: #FFFFFF;
     text-shadow: 0px 0px 13px #21fb9b;
 }
-.package-name h4, .create-packages h4 {
+.package-name h4 {
     color: #FCA120;
     font-size: 26px;
+}
+.create-packages h4{
+    color: #FCA120;
+    font-size: 22px;
 }
 /* Create Packages Page */
 .create-packages {

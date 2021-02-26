@@ -10,7 +10,7 @@
                 </div>
             </div>
         </div>
-        <div class="row competition pt-5 create-packages">
+        <div class="row pt-5 create-packages">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-12 col-md-6">
@@ -18,10 +18,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <h4>Free time for users</h4>
                 <select class="packages-select" aria-label="Default select example">
-                    <option>Choose Hours</option>
+                    <option>Choose One</option>
                     <option>1 Hour</option>
                     <option>2 Hours</option>
                     <option>3 Hours</option>
@@ -32,14 +32,30 @@
                     <option>8 Hours</option>
                 </select>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <h4>Per Hour Price</h4>
                 <input type="text" name="post_url" value="" required="required" placeholder="£" class="Manage-competition-input" />
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
+                <h4>Free Credits</h4>
+                <select class="packages-select" aria-label="Default select example">
+                    <option>Choose One</option>
+                    <option>£10</option>
+                    <option>£20</option>
+                    <option>£30</option>
+                    <option>£40</option>
+                    <option>£50</option>
+                    <option>£60</option>
+                    <option>£70</option>
+                    <option>£80</option>
+                    <option>£90</option>
+                    <option>£100</option>
+                </select>
+            </div>
+            <div class="col-md-3">
                 <h4>Maximum Purchases</h4>
                 <select class="packages-select" aria-label="Default select example">
-                    <option>Select Package</option>
+                    <option>Choose One</option>
                     <option>1x</option>
                     <option>2x</option>
                     <option>3x</option>
