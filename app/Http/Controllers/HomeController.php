@@ -75,7 +75,9 @@ class HomeController extends Controller
 
     public function CreateLeaderboard()
     {
-        return view('leaderboard/index');
+
+        $leaderboardpackages=DB::table('leaderboardpackages')->get();
+        return view('leaderboard/index',array('leaderboardpackages'=>$leaderboardpackages));
     }
     public function EditLeaderboard($id)
     {
@@ -296,6 +298,7 @@ class HomeController extends Controller
                 'leaderboard_run_period'=>$request->leaderboard_run_period,
                 'leaderboard_start_date'=>$leaderboard_start_date,
                 'leaderboard_end_date'=>$leaderboard_end_date,
+                'package'=>$request->package,
                 'starttime'=>Carbon::now()->endOfDay()->timestamp,
                 'endtime'=>Carbon::now()->addDays($request->leaderboard_run_period)->endOfDay()->timestamp,
                 'runtime'=>0,
@@ -505,6 +508,23 @@ class HomeController extends Controller
     public function UserListexportCSV()
     {
         return Excel::download(new UsersExport, 'BoomUserList.csv');
+    }
+
+    public function addpackage(Request $request)
+    {
+            $package=array(
+                'package_name' =>$request->package_name,
+                'free_time' =>$request->free_time,
+                'price_per_hour' =>$request->price_per_hour,
+                'free_credit' =>$request->free_credit,
+                'max_purchase' => $request->free_credit,
+            );
+           $packageid= DB::table('leaderboardpackages')->insert($package);
+           if($packageid){
+         return back()->with('status', 'package add successfully!');
+        }else{
+            return back()->with('error', 'some thing went wrong!');
+        }
     }
 
 }

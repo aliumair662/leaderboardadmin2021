@@ -60,6 +60,19 @@
                                     ?>
                                 </select>
                             </div>
+                    <div class="Manage-competition-dropdown-section">
+                                <p class="Manage-competition-heading">ADD LEADERBOARD PACKAGE</p>
+                                <select name="package" class="Manage-competition-select" aria-label="Default select example" required>
+                                    <option value="">Open this select menu</option>
+                                    @if(!empty($leaderboardpackages))
+                                    @foreach($leaderboardpackages as $package)
+                                    <option value="{{$package->id}}">{{$package->package_name}} - {{$package->price_per_hour}}</option>
+                                     @endforeach
+                                    @endif
+                                </select>
+                            </div>
+
+                            
                             <div class="Playing-button-wrapper pt-3">
                                 <!--<a href="#" class="login-submit ml-auto float-right rounded Continue-Playing-btn">Create Leaderboard</a>-->
                                 <button type="submit" class="login-submit ml-auto float-right rounded Continue-Playing-btn">

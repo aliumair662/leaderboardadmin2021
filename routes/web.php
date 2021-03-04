@@ -49,3 +49,4 @@ Route::get('/UserListexport', 'HomeController@UserListexport')->name('UserListex
 Route::get('/UserListexportCSV', 'HomeController@UserListexportCSV')->name('UserListexportCSV');
 Route::post('/activeleaderBoard', 'HomeController@activeleaderBoard')->name('activeleaderBoard');
 Route::get('/privacy', 'HomeController@privacy')->name('privacy');
+Route::post('/addpackage', 'HomeController@addpackage')->name('addpackage');

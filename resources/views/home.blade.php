@@ -21,7 +21,7 @@
                     <a href="{{route('Users')}}"><button class="btn-block">Users</button></a>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
-                    <a href="{{route('Users')}}"><button class="btn-block">Packages</button></a>
+                    <a href="/createpackages"><button class="btn-block">Packages</button></a>
                 </div>
             </div>
         </div>
