@@ -33,10 +33,11 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')->hourly();
 
         $schedule->call(function () {
-            $this->updateUserInstagramId();
+            /*$this->updateUserInstagramId();
             $this->checkExpiredLeaderboard();
              $this->updateActiveleaderboardRunTime();
-            $this->startScrapping();
+            $this->startScrapping();*/
+             $this->updateBuyleadboardTime();
              
         })->everyMinute();
     }
@@ -84,7 +85,8 @@ class Kernel extends ConsoleKernel
     public function checkExpiredLeaderboard(){
         $leaderboard=DB::table('leaderboard')
             ->where('active',1)
-            ->where('endtime','<=',Carbon::now()->timestamp)
+            //->where('endtime','<=',Carbon::now()->timestamp)
+            ->where('leaderboard_end_date', '>=', Carbon\Carbon::now()->toDateString())
             ->first();
         /**
          * Running leaderboard
@@ -110,6 +112,17 @@ class Kernel extends ConsoleKernel
         }
 
     }
+    public function updateBuyleadboardTime(){
+        for($i=0;$i<6;$i++){
+            DB::table('leaderboard_buy_time')
+            ->where('active',1)
+            ->decrement('total_time', 5); 
+             sleep( 5 );
+        }
+        
+
+    }
+    
     public function startScrapping(){
        //echo "111";
         Log::debug('Start SCARPPER');

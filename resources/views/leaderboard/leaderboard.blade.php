@@ -16,9 +16,9 @@
 								<a href="{{ route('home') }}"><button class="btn">Back</button></a>
 								</div>
                             </div>
-                                <div class="col-md-6 col-6 order-md-2 order-2 casino-timer leaderboard-timer text-center">
+                                <div class="col-md-6 col-6 order-md-2 order-2 casino-timer leaderboard-timer text-center" id="counter-timer-section">
                                     @if($leaderboard->active == 0 || $leaderboard->active == 1)
-                                    <div class="row counter-width">
+                                    <div class="row counter-width" >
                                         <div class="col-12">
                                             <p>COMPETITION ENDS IN</p>
                                         </div>
@@ -275,9 +275,25 @@
                 /*document.getElementById("demo").innerHTML = days + "d " + hours + "h "
                    + minutes + "m " + seconds + "s ";*/
                 // If the count down is over, write some text
-                if (distance < 0) {
+            distance=0;
+                console.info("distance"+distance);
+                if (distance <= 0) {
                     clearInterval(intervalIDleadboard);
-                    document.getElementById("demo").innerHTML = "EXPIRED";
+                    setTimeout(function(){ 
+                        //var src=$(".mentions-row:first" ).find('.table-avatar').find('img').attr('src');
+//var user_name=$(".mentions-row:first" ).find('.table-avatar').find('h4').text();
+                        
+                        var winnerhtml="";
+                         winnerhtml+="<div class='row' style='max-width: 400px; margin: auto;'>";
+                        
+                         winnerhtml+='<div class="col-12">';
+                         winnerhtml+='<p>COMPETITION IS COMPLETED</p></div></div>';
+                        $("#counter-timer-section").html('');
+                        $("#counter-timer-section").html(winnerhtml);
+
+                    }, 10000);
+        
+                    //document.getElementById("demo").innerHTML = "EXPIRED";
                 }
             }, 1000);
         }else{

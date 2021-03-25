@@ -70,6 +70,7 @@ class HomeController extends Controller
     }
     public function index()
     {
+
         return view('home');
     }
 
@@ -271,6 +272,7 @@ class HomeController extends Controller
             ],
         ]);
         $media_info = curl_exec($curl);
+        
         $err = curl_error($curl);
         curl_close($curl);
         if ($err) {
