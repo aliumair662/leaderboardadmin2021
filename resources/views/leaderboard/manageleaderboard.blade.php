@@ -34,6 +34,7 @@
                 <div class="Manage-competition enter-post-page">
                     <div class="Playing-button-wrapper mb-5">
                         <a href="{{route('CreateLeaderboard')}}" class="login-submit">Create Leaderboard</a>
+                        <a href="{{route('updateApiSettings')}}" class="login-submit">Manage</a>
                     </div>
                     <input type="hidden" name="active-leaderboad" id="active-leaderboad" value="{{(!empty($leaderboardsActive->active) && $leaderboardsActive->active==1) ? $leaderboardsActive->id : ''}}">
 

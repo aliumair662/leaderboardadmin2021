@@ -50,3 +50,5 @@ Route::get('/UserListexportCSV', 'HomeController@UserListexportCSV')->name('User
 Route::post('/activeleaderBoard', 'HomeController@activeleaderBoard')->name('activeleaderBoard');
 Route::get('/privacy', 'HomeController@privacy')->name('privacy');
 Route::post('/addpackage', 'HomeController@addpackage')->name('addpackage');
+Route::get('/updateApiSettings', 'HomeController@updateApiSettings')->name('updateApiSettings');
+Route::post('/updateAPISettingss', 'HomeController@updateAPISettingss')->name('updateAPISettingss');

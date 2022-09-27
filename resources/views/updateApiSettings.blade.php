@@ -13,7 +13,7 @@
                             </div> -->
                             <div class="col-md-12 position-relative text-center">
                                 <div class="Payment-Method-header-text-area">
-                                    <h3 class="Payment-Method-heading Price-Amount-heading">Create Leaderboard</h3>
+                                    <h3 class="Payment-Method-heading Price-Amount-heading">Update Settings</h3>
                                 </div>
                                 <a class="back-button" href="{{route('ManageLeaderboard')}}">
                                     <div class="Wallet">
@@ -35,29 +35,15 @@
                                 </div>
                             @endif
                         <div class="Manage-competition">
-                            <form method="POST" action="{{ route('addLeaderboard') }}">
+                            <form method="POST" action="{{ route('updateAPISettingss') }}">
                                 @csrf
                             <div class="Manage-competition-heading-section">
-                                <p class="Manage-competition-heading">SCRAP MENTIONS FROM POST</p>
-                                <input type="text" class="Manage-competition-input" name="post_url" value="{{ old('post_url') }}" required placeholder="Enter Instagram Post link">
+                                <p class="Manage-competition-heading">Cron Time</p>
+                                <input type="text" class="Manage-competition-input" name="cron_time" value="{{ '' ?? '' }}" placeholder="Enter Time in seconds">
                             </div>
-                            <div class="Manage-competition-dropdown-section">
-                                <p class="Manage-competition-heading">RUN LEADERBOARD FOR</p>
-                                <select name="leaderboard_run_period" class="Manage-competition-select" aria-label="Default select example" required>
-                                    <option value="">Open this select menu</option>
-                                <?php
-                                    for ($i = 1; $i <= 30; $i++){
-                                        $day='day';
-                                        if($i>1){
-                                            $day='days';
-                                            }
-                                            ?>
-                                    <option value="{{$i}}">{{$i}} {{$day}}</option>
-                                    <?php
-
-                                    }
-                                    ?>
-                                </select>
+                            <div class="Manage-competition-heading-section">
+                                <p class="Manage-competition-heading">Api Token</p>
+                                <input type="text" class="Manage-competition-input" name="api_token" value="{{ $dd['token'] ?? '' }}" placeholder="Enter Api Token">
                             </div>
                             <!-- <div class="Manage-competition-dropdown-section">
                                 <p class="Manage-competition-heading">ADD LEADERBOARD PACKAGE</p>
